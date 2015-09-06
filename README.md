@@ -11,7 +11,7 @@ The philosophy of OneOfaKind is to stay relatively close to Google's stock Lolli
     make otapackage -j8/16 (depending on your hardware)
 
 
-[@zephiK0](https://twitter.com/zephiK0) on Twitter
+[@zephiK0](https://twitter.com/zephiK0) on Twitter <br>
 [@ipromeh](https://twitter.com/ipromeh) on Twitter
 
 [Chroma's Google+](https://plus.google.com/u/0/communities/100877567555105149232)
