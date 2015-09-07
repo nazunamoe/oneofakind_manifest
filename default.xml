@@ -471,7 +471,7 @@ sync-j="6" />
 
 <!-- Sony Xperia S / Nozomi  -->
 <project path="device/sony/dash" name="device_sony_dash" remote="ipromeh" revision= "L" />
-<project path="device/sony/nozomi" name="device_sony_nozomi_old " remote="ipromeh" revision= "oneofakind" />
+<project path="device/sony/nozomi" name="device_sony_nozomi_old" remote="ipromeh" revision= "oneofakind" />
 <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
 <project path="kernel/msm" name="kernel_sony_msm8x60" remote="ipromeh" revision="android-msm-sony-fuji-3.4-nAOSP-5.1" />
 <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="ipromeh" revision= "L" />
