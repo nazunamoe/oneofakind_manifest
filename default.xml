@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com" />
   <remote name="ipromeh"
            fetch="https://github.com/ipromeh"
            sync-j="6" />
