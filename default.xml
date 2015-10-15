@@ -460,6 +460,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="mm" revision="mm"/>
-  <project path="vendor/frank" name="android_vendor_oneofakind" remote="ipromeh" />
+  <project path="vendor/oneofakind" name="android_vendor_oneofakind" remote="ipromeh" />
   <project path="external/busybox" name="android_external_busybox" remote="ipromeh" />
 </manifest>
