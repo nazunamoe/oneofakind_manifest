@@ -29,13 +29,17 @@
            fetch="https://github.com/cyanogenmod" />
 
 #Source for Sony Xperia Z1 (C6903)
-  <project path="device/sony/honami" name="android_device_sony_honami" revision="cm-13.0" group="device" />
-  <project path="device/sony/common" name="android_device_sony_common" revision="cm-13.0" group="device" />
-  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" revision="cm-13.0" group="device" />
-  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" revision="cm-13.0" group="device" />
-  <project path="kernel/sony/msm8974" name="android_kernel_sony_msm8974" revision="cm-13.0" />
-  <project path="vendor/qcom/opensource/" name="android_vendor_qcom_opensource" revision="cm-13.0" />
-  <project path="vendor/qcom/opensource/" name="android_vendor_qcom_opensource" revision="cm-13.0" />
+  <project path="device/sony/honami" remote="cyanogenmod" name="android_device_sony_honami" revision="cm-13.0" group="device" />
+  <project path="device/sony/common" remote="cyanogenmod" name="android_device_sony_common" revision="cm-13.0" group="device" />
+  <project path="device/sony/rhine-common" remote="cyanogenmod" name="android_device_sony_rhine-common" revision="cm-13.0" group="device" />
+  <project path="device/sony/msm8974-common" remote="cyanogenmod" name="android_device_sony_msm8974-common" revision="cm-13.0" group="device" />
+  <project path="kernel/sony/msm8974" remote="cyanogenmod" name="android_kernel_sony_msm8974" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/dpm" remote="cyanogenmod" name="android_vendor_qcom_opensource_dpm" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/time-service" remote="cyanogenmod" name="android_vendor_qcom_opensource_time-service" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/display-frameworks" remote="cyanogenmod" name="android_vendor_qcom_opensource_display-frameworks" revision="cm-13.0" />
+  <project path="vendor/sony/honami" remote="cyanogenmod" name="android_vendor_sony_honami" revision="cm-13.0" />
+  <project path="vendor/sony/msm8974-common" remote="cyanogenmod" name="android_vendor_sony_msm8974-common" revision="cm-13.0" />
+  <project path="vendor/sony/rhine-common" remote="cyanogenmod" name="android_vendor_sony_rhine-common" revision="cm-13.0" />
   
   <project path="build" name="android_build" groups="pdk" remote="ipromeh" >
     <copyfile src="core/root.mk" dest="Makefile" />
